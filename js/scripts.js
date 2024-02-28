@@ -271,3 +271,7 @@
 	});
 
 })(jQuery);
+
+
+// edit by paras jangid
+
