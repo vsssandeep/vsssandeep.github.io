@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+:root{
+    --clr: #222327;
+}
+
+.navbar-comp {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    top: 0;
+}
+
+.left-navbar {
+    flex: 1;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    gap: 2rem;
+}
+
+.brand-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.right-navbar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 400;
+}
+
+.list {
+    flex: 10;
+}
+
+.list>ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.list>ul :hover {
+    color: rgb(0, 173, 253);
+    cursor: pointer;
+}
+
+.contect-button {
+    flex: 2;
+}
+
+@media screen and (max-width: 480px) {
+    .list {
+        display: none;
+        font-weight: bold;
+    }
+}

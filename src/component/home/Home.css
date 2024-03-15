@@ -1,0 +1,438 @@
+/* .home-comp {
+  display: flex;
+  height: 77vh;
+  margin-top: 6rem;
+}
+
+.home-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.heading-home {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.heading-home> :nth-child(1) {
+  color: black;
+  font-weight: bold;
+  font-size: 4rem;
+
+}
+
+.heading-home> :nth-child(2) {
+  color: rgb(0, 173, 253);
+  font-weight: bold;
+  font-size: 5rem;
+  letter-spacing: 1px;
+}
+
+.heading-home> :nth-child(3) {
+  font-weight: 100;
+  font-size: 18px;
+  color: rgb(110, 110, 110);
+  margin-top: 10px;
+  letter-spacing: 1px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.home-button {
+  width: 8rem;
+  height: 3rem;
+}
+
+.home-right {
+  flex: 1;
+  position: relative;
+  transition: all .5s;
+  perspective: 580px;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+.home-right:hover {
+  perspective: 1000px;
+}
+
+.m-div-one {
+  margin-right: 75px;
+}
+
+.cube-design {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  transition: all 10s;
+  margin-top: 35px;
+  margin-right: 95px;
+  transform: rotateZ(0deg) rotateX(90deg) rotateY(310deg);
+  transform: rotateZ(0) rotateX(0) rotateY(0);
+  transform-style: preserve-3d;
+}
+
+.cube-design:hover {
+  transform: rotateZ(0deg) rotateX(90deg) rotateY(310deg);
+}
+
+.face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all .5s;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.face:nth-child(1) {
+  background-color: blueviolet;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform-origin: center left;
+  transform: rotateY(90deg) translateX(-150px);
+  border-radius: 25px;
+}
+
+.face:nth-child(2) {
+  background-color: rgb(255, 0, 0);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform-origin: center right;
+  transform: rotateY(-90deg) translateX(150px);
+  border-radius: 25px;
+}
+
+.face:nth-child(3) {
+  background-color: rgb(251, 255, 0);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform-origin: center top;
+  transform: rotateX(-90deg) translateY(-150px);
+  border-radius: 25px;
+}
+
+.face:nth-child(4) {
+  background-color: rgb(51, 255, 0);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform-origin: center bottom;
+  transform: rotateX(90deg) translateY(150px);
+  border-radius: 25px;
+}
+
+.face:nth-child(5) {
+  background-color: rgb(253, 0, 211);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform-origin: center bottom;
+  transform: translateZ(-150px);
+  border-radius: 25px;
+}
+
+.face:nth-child(6) {
+  background-color: rgb(80, 148, 128);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform-origin: center bottom;
+  transform: translateZ(150px);
+  border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .home-comp {
+    flex-direction: column;
+    gap: 7rem;
+    height: 64rem;
+  }
+
+  .home-right {
+    transform: scale(0.8);
+    left: -3rem;
+  }
+
+  .home-right .blur {
+    display: none;
+  }
+
+  .floating-div:nth-of-type(1) {
+  
+    top: -7rem !important;
+    ;
+  }
+
+  .cube-design {
+    margin-right: 0px;
+    margin-left: 65px;
+    margin-top: 0px;
+    margin-bottom: 95px;
+  }
+
+  .m-div-one {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .home-comp {
+    flex-direction: column;
+    gap: 7rem;
+    height: 64rem;
+  }
+} */
+
+
+
+.home-comp {
+  display: flex;
+  height: 77vh;
+  margin-top: 10rem;
+}
+
+.home-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.heading-home {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.heading-home> :nth-child(1) {
+  color: black;
+  font-weight: bold;
+  font-size: 4rem;
+
+}
+
+.heading-home> :nth-child(2) {
+  /* color: rgb(0, 173, 253); */
+  color: rgb(0, 51, 169);
+  font-weight: bold;
+  font-size: 5rem;
+  letter-spacing: 1px;
+}
+
+.heading-home> :nth-child(3) {
+  font-weight: 100;
+  font-size: 18px;
+  color: rgb(110, 110, 110);
+  margin-top: 10px;
+  letter-spacing: 1px;
+  /* font-family: 'Balsamiq Sans', cursive; */
+  font-family: "DM Sans", Sans-serif;
+}
+
+.home-button {
+  width: 8rem;
+  height: 3rem;
+}
+
+.home-right {
+  flex: 1;
+  position: relative;
+  transition: all .5s;
+  /* background: radial-gradient(circle, rgb(0, 0, 0) 0% , rgb(0, 15, 126) 15% , rgb(0, 38, 255) 100%); */
+  perspective: 580px;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+.home-right:hover {
+  perspective: 1000px;
+}
+
+.m-div-one {
+  margin-right: 75px;
+}
+
+.cube-design {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  transition: 10s;
+  margin-top: 35px;
+  margin-right: 95px;
+  transform-style: preserve-3d;
+  transform: rotateZ(0) rotateX(0) rotateY(0);
+}
+
+.cube-design:hover {
+  transform: rotateZ(0deg) rotateX(90deg) rotateY(310deg);
+  transition: 10s;
+}
+
+.face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all .7s;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.face:nth-child(1) {
+  background-image: url("/src/img/ui.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform-origin: center left;
+  transform: rotateY(90deg) translateX(-150px);
+  border-radius: 25px;
+  opacity: 0.9;
+}
+
+.face:nth-child(2) {
+  background-image: url("/src/img/ai.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform-origin: center right;
+  transform: rotateY(-90deg) translateX(150px);
+  border-radius: 25px;
+  opacity: 0.9;
+}
+
+.face:nth-child(3) {
+  background-image: url("/src/img/cloud.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform-origin: center top;
+  transform: rotateX(-90deg) translateY(-150px);
+  border-radius: 25px;
+  opacity: 0.9;
+}
+
+.face:nth-child(4) {
+  background-image: url("/src/img/app.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform-origin: center bottom;
+  transform: rotateX(90deg) translateY(150px);
+  border-radius: 25px;
+  opacity: 0.9;
+}
+
+.face:nth-child(5) {
+  background-image: url("/src/img/ecrc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform-origin: center bottom;
+  transform: translateZ(-150px);
+  border-radius: 25px;
+  opacity: 0.9;
+}
+
+.face:nth-child(6) {
+  background-image: url("/src/img/web.jpg");
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform-origin: center bottom;
+  transform: translateZ(150px);
+  border-radius: 25px;
+}
+
+.nameTag {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow: 0 0 3px rgb(4, 4, 4), 0 0 5px rgb(112, 112, 112);
+}
+
+
+@keyframes cubeRotate {
+  /* Define keyframes for cube rotation */
+  from {
+    transform: rotateZ(0deg) rotateX(0deg) rotateY(0deg);
+  }
+  to {
+    transform: rotateZ(360deg) rotateX(360deg) rotateY(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .home-comp {
+    flex-direction: column;
+    gap: 7rem;
+    height: 64rem;
+  }
+
+  .home-right {
+    transform: scale(0.8);
+    left: -3rem;
+  }
+
+  .home-right .blur {
+    display: none;
+  }
+
+  .floating-div:nth-of-type(1) {
+    /* display: none; */
+    top: -7rem !important;
+    ;
+  }
+
+  .cube-design {
+    margin-right: 0px;
+    margin-left: 65px;
+    margin-top: 0px;
+    margin-bottom: 95px;
+    animation: cubeRotate 10s linear infinite;
+  }
+
+  .m-div-one {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .home-comp {
+    flex-direction: column;
+    gap: 7rem;
+    height: 64rem;
+  }
+}

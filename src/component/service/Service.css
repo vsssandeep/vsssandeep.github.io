@@ -1,0 +1,297 @@
+.service-comp {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 30rem;
+    margin-bottom: 8rem;
+    margin-top: 7rem;
+    margin-bottom: 13rem;
+    /* scroll view */
+    padding-top: 3rem;
+    /* background-color: rgb(195, 195, 255); */
+}
+
+.left-serv {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1.5rem;
+
+}
+
+.product {
+    width: 100px;
+    height: 100px;
+    /* z-index: 4; */
+}
+
+.img-div {
+    z-index: 1;
+}
+
+.circle-box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    -webkit-box-reflect: below 1px linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1));
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    /* background-color: #000000; */
+    position: absolute;
+    border-radius: 50%;
+    animation: rotate 4s linear infinite normal;
+}
+
+/* .circle::before {
+    content: "";
+    width: 100px;
+    height: 200px;
+    background: linear-gradient(to top, transparent, rgba(255, 255, 0, 0.9));
+    background-size: 100px 180px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.circle::after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 0, 1);
+    position: absolute;
+    top: 0px;
+    left: 97.5px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.9), 0 0 20px rgba(255, 255, 0, 0.9),
+        0 0 30px rgba(255, 255, 0, 0.9), 0 0 40px rgba(255, 255, 0, 0.9),
+        0 0 50px rgba(255, 255, 0, 0.9), 0 0 60px rgba(255, 255, 0, 0.9),
+        0 0 70px rgba(255, 255, 0, 0.9), 0 0 80px rgba(255, 255, 0, 0.9),
+        0 0 90px rgba(255, 255, 0, 0.9), 0 0 100px rgba(255, 255, 0, 0.9);
+} */
+
+.circle::before {
+    content: "";
+    width: 100px;
+    height: 200px;
+    background: linear-gradient(to top, transparent, rgba(255, 255, 0, 0.5));
+    background-size: 100px 180px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.circle::after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 0, 0.8);
+    /* Adjusted color */
+    position: absolute;
+    top: 0px;
+    left: 97.5px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.5),
+        0 0 20px rgba(255, 255, 0, 0.5),
+        0 0 30px rgba(255, 255, 0, 0.5),
+        0 0 40px rgba(255, 255, 0, 0.5),
+        0 0 50px rgba(255, 255, 0, 0.5),
+        0 0 60px rgba(255, 255, 0, 0.5),
+        0 0 70px rgba(255, 255, 0, 0.5),
+        0 0 80px rgba(255, 255, 0, 0.5),
+        0 0 90px rgba(255, 255, 0, 0.5),
+        0 0 100px rgba(255, 255, 0, 0.5);
+}
+
+
+.circle span {
+    width: 190px;
+    height: 190px;
+    /* background: green; */
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+}
+
+.circle-c {
+    width: 160px;
+    height: 160px;
+    /* background: #000000; */
+    position: absolute;
+    border-radius: 50%;
+    animation: rotate 4s linear infinite reverse;
+}
+
+
+.circle-c::before {
+    content: '';
+    width: 80px;
+    height: 160px;
+    /* background: linear-gradient(to top, transparent, rgba(0, 0, 255, 0.9)); */
+    background: linear-gradient(to top, transparent, rgba(0, 0, 255, 0.5));
+
+    background-size: 80px 140px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.circle-c::after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: rgba(0, 0, 255, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 77.5px;
+    border-radius: 50%;
+    /* box-shadow: 0 0 10px rgba(0, 0, 255, 0.9), 0 0 20px rgba(0, 0, 255, 0.9),
+        0 0 30px rgba(0, 0, 255, 0.9), 0 0 40px rgba(0, 0, 255, 0.9),
+        0 0 50px rgba(0, 0, 255, 0.9), 0 0 60px rgba(0, 0, 255, 0.9),
+        0 0 70px rgba(0, 0, 255, 0.9), 0 0 80px rgba(0, 0, 255, 0.9),
+        0 0 90px rgba(0, 0, 255, 0.9), 0 0 100px rgba(0, 0, 255, 0.9); */
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5),
+        0 0 20px rgba(0, 0, 255, 0.5),
+        0 0 30px rgba(0, 0, 255, 0.5),
+        0 0 40px rgba(0, 0, 255, 0.5),
+        0 0 50px rgba(0, 0, 255, 0.5),
+        0 0 60px rgba(0, 0, 255, 0.5),
+        0 0 70px rgba(0, 0, 255, 0.5),
+        0 0 80px rgba(0, 0, 255, 0.5),
+        0 0 90px rgba(0, 0, 255, 0.5),
+        0 0 100px rgba(0, 0, 255, 0.5);
+
+}
+
+.circle-c span {
+    width: 150px;
+    height: 150px;
+    /* background: #00ffdd; */
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+}
+
+.first {
+    /* border: 1px solid black; */
+    position: relative;
+    right: 10%;
+}
+
+.second {
+    position: relative;
+    left: 30%;
+    top: -52%;
+}
+
+.third {
+    position: relative;
+    right: 10%;
+    top: -70%;
+}
+
+.fourth {
+    position: relative;
+    left: 30%;
+    top: -88.4%;
+}
+
+.fiveth {
+    position: relative;
+    top: -106%;
+    right: 10%;
+}
+
+.sec-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    position: relative;
+    bottom: 35%;
+}
+
+.ones {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+
+
+.right-serv {
+    flex: 1;
+}
+
+.text-sec {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 45px;
+    margin-top: 15%;
+    /* gap: 20px; */
+}
+
+.text-sec> :nth-child(1) {
+    color: black;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.text-sec> :nth-child(2) {
+    color: rgb(0, 173, 253);
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.text-sec> :nth-child(3) {
+    font-weight: 100;
+    font-size: 18px;
+    color: rgb(110, 110, 110);
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.s-button {
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.headers-res {
+    font-size: 2rem;
+
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .service-comp {
+        flex-direction: column;
+    }
+}
