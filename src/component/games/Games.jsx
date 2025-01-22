@@ -12,6 +12,10 @@ import bird from '../../img/bird.jpeg'
 import hms from '../../img/hms.png'
 import bummble from '../../img/bummble.png'
 import optimus from '../../img/optimus.png'
+import appstr from '../../img/appstr.png'
+import langtrans from '../../img/langtrans.png'
+import wisevdo from '../../img/wisevdo.png'
+import droned from '../../img/droned.png'
 
 const Games = () => {
     const theme = useContext(themeContext);
@@ -22,11 +26,11 @@ const Games = () => {
             <div className="product-title">
                 <span>
                     <span style={{ color: darkMode ? "white" : "" }}>Our</span>
-                    <span>Our Services</span>
+                    <span>Products</span>
                 </span>
             </div>
             <div className="product-list">
-              
+
                 <div class="container" style={{ marginTop: "-35px" }}>
                     <div class="row">
                         <div class="col-6">
@@ -41,15 +45,94 @@ const Games = () => {
                                 <i class="fa fa-arrow-right"></i>
                             </a>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12" >
                             <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-
                                 <div class="carousel-inner" style={{ width: "82%", marginLeft: "9%" }}>
                                     <div class="carousel-item active">
-                                        <div class="row" >
+                                        <div class="row">
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card" style={{ width: "100%", overflow: 'hidden' }}>
+                                                    <img class="img-fluid" alt="100%x280"
+                                                        src={droned} />
+                                                    <div class="card-body" style={{ color: darkMode ? "black" : "" }}>
+                                                        <h4 class="card-title">AI Video Difference Tool</h4>
+                                                        <p class="card-text">Compare two videos from the same location and detect differences with AI precision. This tool highlights changes, analyzes their causes, and provides actionable insights, making it ideal for surveillance, quality checks, and monitoring environmental shifts.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card" style={{ width: "100%", overflow: 'hidden' }}>
+                                                    <img class="img-fluid" alt="100%x280" src={appstr} />
+                                                    <div class="card-body" style={{ color: darkMode ? "black" : "" }}>
+                                                        <h4 class="card-title">AI Live Stream Manager</h4>
+                                                        <p class="card-text">A platform for live stream management with AI-driven admin tools and secure data transfer over private networks. Multi-user support ensures scalability, reliability, and a seamless streaming experience for users across diverse environments.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
 
-                                            <div class="col-md-4 mb-3" >
-                                                <div class="card" style={{ width: "100%",overflow:'hidden' }}>
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card" style={{ width: "100%", overflow: 'hidden' }}>
+                                                    <img class="img-fluid" alt="100%x280" src={langtrans} />
+                                                    <div class="card-body" style={{ color: darkMode ? "black" : "" }}>
+                                                        <h4 class="card-title">Offline Multilingual AI</h4>
+                                                        <p class="card-text">This offline AI translator converts audio input into text or audio translations in multiple languages like Nepali, Urdu, and Marathi. Designed for low-connectivity areas, it ensures accurate and efficient communication without internet access.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card" style={{ width: "100%", overflow: 'hidden' }}>
+                                                    <img class="img-fluid" alt="100%x280"
+                                                        src={hms} />
+                                                    <div class="card-body" style={{ color: darkMode ? "black" : "" }}>
+                                                        <h4 class="card-title">VSS Hospital Application</h4>
+                                                        <p class="card-text">VSS Hospital App: Streamline operations, manage appointments,
+                                                            track records. Customizable for multiple hospitals. Efficient, secure,
+                                                            user-friendly interface ensures seamless healthcare management. Enhance patient
+                                                            care delivery with comprehensive features.</p>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card" style={{ width: "100%", overflow: 'hidden' }}>
+                                                    <img class="img-fluid" alt="100%x280"
+                                                        src={bummble} />
+                                                    <div class="card-body" style={{ color: darkMode ? "black" : "" }}>
+                                                        <h4 class="card-title">Bummble</h4>
+                                                        <p class="card-text">Bummble: A service-based project for Anantadi Group, offering
+                                                            tailored solutions to meet unique needs. With a focus on innovation and
+                                                            reliability, Bummble is dedicated to delivering exceptional service, ensuring
+                                                            the success and satisfaction of Anantadi Group initiatives and endeavors.</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card" style={{ width: "100%", overflow: 'hidden' }}>
+                                                    <img class="img-fluid" alt="100%x280"
+                                                        src={optimus} />
+                                                    <div class="card-body" style={{ color: darkMode ? "black" : "" }}>
+                                                        <h4 class="card-title">Optimus</h4>
+                                                        <p class="card-text">Bummble: A service-based project for Anantadi Group, offering
+                                                            tailored solutions to meet unique needs. With a focus on innovation and
+                                                            reliability, Bummble is dedicated to delivering exceptional service, ensuring
+                                                            the success and satisfaction of Anantadi Group initiatives and endeavors.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row" >
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card" style={{ width: "100%", overflow: 'hidden' }}>
                                                     <img class="img-fluid" alt="100%x280"
                                                         src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/db308021809397.56307dd64dd0a.jpg" />
                                                     <div class="card-body" style={{ color: darkMode ? "black" : "" }}>
@@ -59,13 +142,11 @@ const Games = () => {
                                                             Available across all devices,
                                                             this game will have you flapping, dashing, and soaring through a wild avian
                                                             escapade like never before.</p>
-
                                                     </div>
-
                                                 </div>
                                             </div>
                                             <div class="col-md-4 mb-3">
-                                                <div class="card" style={{ width: "100%",overflow:'hidden' }}>
+                                                <div class="card" style={{ width: "100%", overflow: 'hidden' }}>
                                                     <img class="img-fluid" alt="100%x280"
                                                         src={love} />
                                                     <div class="card-body" style={{ color: darkMode ? "black" : "" }}>
@@ -79,7 +160,7 @@ const Games = () => {
                                                 </div>
                                             </div>
                                             <div class="col-md-4 mb-3">
-                                                <div class="card" style={{ width: "100%",overflow:'hidden'}}>
+                                                <div class="card" style={{ width: "100%", overflow: 'hidden' }}>
                                                     <img class="img-fluid" alt="100%x280"
                                                         src={cat} />
                                                     <div class="card-body" style={{ color: darkMode ? "black" : "" }}>
@@ -101,7 +182,7 @@ const Games = () => {
                                         <div class="row">
 
                                             <div class="col-md-4 mb-3">
-                                                <div class="card" style={{ width: "100%" ,overflow:'hidden'}}>
+                                                <div class="card" style={{ width: "100%", overflow: 'hidden' }}>
                                                     <img class="img-fluid" alt="100%x280"
                                                         src={jack} />
                                                     <div class="card-body" style={{ color: darkMode ? "black" : "" }}>
@@ -116,7 +197,7 @@ const Games = () => {
                                                 </div>
                                             </div>
                                             <div class="col-md-4 mb-3">
-                                                <div class="card" style={{ width: "100%" ,overflow:'hidden'}}>
+                                                <div class="card" style={{ width: "100%", overflow: 'hidden' }}>
                                                     <img class="img-fluid" alt="100%x280"
                                                         src={power} />
                                                     <div class="card-body" style={{ color: darkMode ? "black" : "" }}>
@@ -131,7 +212,7 @@ const Games = () => {
                                                 </div>
                                             </div>
                                             <div class="col-md-4 mb-3">
-                                                <div class="card" style={{ width: "100%" ,overflow:'hidden'}}>
+                                                <div class="card" style={{ width: "100%", overflow: 'hidden' }}>
                                                     <img class="img-fluid" alt="100%x280"
                                                         src={bird} />
                                                     <div class="card-body" style={{ color: darkMode ? "black" : "" }}>
@@ -147,53 +228,7 @@ const Games = () => {
 
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <div class="row">
 
-                                            <div class="col-md-4 mb-3">
-                                                <div class="card" style={{ width: "100%",overflow:'hidden' }}>
-                                                    <img class="img-fluid" alt="100%x280"
-                                                        src={hms} />
-                                                    <div class="card-body" style={{ color: darkMode ? "black" : "" }}>
-                                                        <h4 class="card-title">VSS Hospital Application</h4>
-                                                        <p class="card-text">VSS Hospital App: Streamline operations, manage appointments,
-                                                            track records. Customizable for multiple hospitals. Efficient, secure,
-                                                            user-friendly interface ensures seamless healthcare management. Enhance patient
-                                                            care delivery with comprehensive features.</p>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <div class="card" style={{ width: "100%" ,overflow:'hidden'}}>
-                                                    <img class="img-fluid" alt="100%x280"
-                                                        src={bummble} />
-                                                    <div class="card-body" style={{ color: darkMode ? "black" : "" }}>
-                                                        <h4 class="card-title">Bummble</h4>
-                                                        <p class="card-text">Bummble: A service-based project for Anantadi Group, offering
-                                                            tailored solutions to meet unique needs. With a focus on innovation and
-                                                            reliability, Bummble is dedicated to delivering exceptional service, ensuring
-                                                            the success and satisfaction of Anantadi Group initiatives and endeavors.</p>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <div class="card" style={{ width: "100%" ,overflow:'hidden'}}>
-                                                    <img class="img-fluid" alt="100%x280"
-                                                        src={optimus} />
-                                                    <div class="card-body" style={{ color: darkMode ? "black" : "" }}>
-                                                        <h4 class="card-title">Optimus</h4>
-                                                        <p class="card-text">Bummble: A service-based project for Anantadi Group, offering
-                                                            tailored solutions to meet unique needs. With a focus on innovation and
-                                                            reliability, Bummble is dedicated to delivering exceptional service, ensuring
-                                                            the success and satisfaction of Anantadi Group initiatives and endeavors.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>

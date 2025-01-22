@@ -12,7 +12,7 @@ const Product = () => {
         <div className="product-title">
             <span>
                 <span style={{color: darkMode ? "white" : ""}}>We provide few</span>
-                <span>Products</span>
+                <span>Services</span>
             </span>
         </div>
         <div className="product-list">

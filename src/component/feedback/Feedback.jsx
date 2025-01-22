@@ -24,16 +24,15 @@ const Feedback = () => {
                 <div className="slider-container swiper">
                     <div className="slider-cont">
                         <div className="card-warper">
-
                             <motion.div class="card swiper-slide"
                             initial={{ rotate: 360 }}
                             whileInView={{ rotate: 0 }}
                             viewport={{ margin: "-40px" }}
                             transition={{ duration: 1, type: "spring" }}
+                            
                             >
                                 <div class="image-content">
                                     <span class="overlay"></span>
-
                                     <div class="card-image">
                                         <img src={logoimg} alt="" class="card-img" />
                                     </div>
@@ -58,7 +57,9 @@ const Feedback = () => {
                             initial={{ rotate: 360 }}
                             whileInView={{ rotate: 0 }}
                             viewport={{ margin: "-40px" }}
-                            transition={{ duration: 1, type: "spring" }}>
+                            transition={{ duration: 1, type: "spring" }}
+                            style={{marginLeft:"18px"}}
+                            >
                                 <div className="image-content">
                                     <span className="overlay"></span>
 

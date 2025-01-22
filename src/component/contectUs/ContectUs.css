@@ -33,7 +33,8 @@
 }
 
 textarea{
-    height: 4rem!important;
+    max-height: 7rem!important;
+    min-height: 4rem!important;
 }
 
 .c-blur1{

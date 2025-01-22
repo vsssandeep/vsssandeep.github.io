@@ -126,8 +126,8 @@
     object-fit: cover;
     border-radius: 50%;
     border: 4px solid #4070F4;
-    margin-left: -3.8px;
-    margin-top: -4px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
 .name {
@@ -184,8 +184,8 @@
 .rating{
     font-size: 1.3rem;
     width: 52%;
-    margin-top: -28%;
-    margin-left: 47%;
+    margin-top: -23.5%;
+    margin-left: 40%;
 }
 .checked {
     color: orange;

@@ -27,7 +27,7 @@ const Ourteam = () => {
           transition={{ duration: 1, type: "spring" }}
           >
             <span>Our Team</span>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste culpa deserunt temporibus neque.</span>
+            <span>Driven by creativity and commitment, our team is dedicated to turning ideas into impactful realities that shape the future.</span>
           </motion.div>
 
         </div>
